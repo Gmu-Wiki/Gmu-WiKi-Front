@@ -6,4 +6,4 @@ export const HeaderInner = styled.div`
   background-color: white;
 `;
 
-export
+

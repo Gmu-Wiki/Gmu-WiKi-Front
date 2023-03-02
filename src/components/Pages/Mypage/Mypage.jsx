@@ -4,9 +4,7 @@ import "./index.css";
 
 function MyPage() {
     return (
-        <S.HeaderInner>
-
-        </S.HeaderInner>
+        <S.HeaderInner></S.HeaderInner>
     );
 }
 
