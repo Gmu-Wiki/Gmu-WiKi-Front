@@ -30,7 +30,9 @@ function MyPage() {
         <div className="UserContent">
           <S.UserList></S.UserList>
         </div>
-        <S.ArticlesList></S.ArticlesList>
+        <S.ArticlesList>
+
+        </S.ArticlesList>
       </S.ContentCenter>
     </>
   );

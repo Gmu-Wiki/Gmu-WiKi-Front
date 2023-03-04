@@ -87,7 +87,8 @@ export const UserList = styled.div`
 
 export const ArticlesList = styled.div`
     width: 44%;
-    height: 77vh;
+    height: auto;
+    
     background-color: white;
     border-radius: 13px;
     margin-top: 65px;
