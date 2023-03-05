@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react"; //테스트
-import MyPage from "../pages/component/Mypage/Mypage";
+import MyPage from "../pages/Mypage/Mypage";
 
 function RouterApp() {
   return (
