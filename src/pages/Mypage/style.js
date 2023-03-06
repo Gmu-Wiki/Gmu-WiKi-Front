@@ -19,7 +19,7 @@ export const HeaderList = styled.div`
 export const LogoImg = styled.img`
   height: 30px;
   cursor: pointer;
-  position:relative;
+  position: relative;
   left: 50px;
 `;
 
@@ -35,7 +35,6 @@ export const MenuList = styled.div`
   .myPageMenu {
     color: #ffb800;
   }
- 
 `;
 
 export const SideBar = styled.div`
@@ -60,37 +59,36 @@ export const SideBar = styled.div`
     }
   }
 
-  position:relative;
+  position: relative;
   right: 50px;
 `;
 
 export const ContentCenter = styled.div`
-  .UserContent{
+  .UserContent {
     width: 35%;
     height: 100%;
-    display:flex;
-    position:relative;
+    display: flex;
+    position: relative;
     left: 90px;
     justify-content: center;
   }
   height: 100%;
-  display:flex
+  display: flex;
 `;
 
 export const UserList = styled.div`
   margin-top: 65px;
   width: 48%;
-  background-color:white;
+  background-color: white;
   height: 34vh;
   border-radius: 13px;
 `;
 
 export const ArticlesList = styled.div`
-    width: 44%;
-    height: auto;
-    
-    background-color: white;
-    border-radius: 13px;
-    margin-top: 65px;
+  width: 44%;
+  height: auto;
 
+  background-color: white;
+  border-radius: 13px;
+  margin-top: 65px;
 `;
