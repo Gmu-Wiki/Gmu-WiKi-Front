@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import React from "react";
+import React from "react"; //테스트
 
 function Router() {
   return (
@@ -15,6 +15,7 @@ function Router() {
             <Route path="/homePage" element={<HomePage />}/>
             <Route path="/noticePage" element={<NoticePage/>}/>
             <Route path="/viewAll" element={<ViewAll />}/> */}
+            
       </Routes>
     </Router>
   );
