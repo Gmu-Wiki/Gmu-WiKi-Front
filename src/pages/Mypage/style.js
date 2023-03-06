@@ -1,6 +1,11 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
+export const HeaderItem = styled.span`
+   color: ${(props) => props.color}; 
+ 
+`;
+
 export const Header = styled.div`
   width: 100%;
   height: 90px;
@@ -30,11 +35,14 @@ export const MenuList = styled.div`
     margin: 0 20px 0 20px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      transition: all 0.1s linear;
+
+      &:hover{
+        transform: scale(1.05);
+      }
   }
 
-  .myPageMenu {
-    color: #ffb800;
-  }
+
 `;
 
 export const SideBar = styled.div`
@@ -103,12 +111,11 @@ export const UserList = styled.div`
     }
   }
 
-
-  .UserImformation{
+  .UserImformation {
     margin-top: 13px;
-    align-items:center;
-    display:flex;
-    flex-direction:column;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 `;
 
@@ -130,28 +137,42 @@ export const UserImg = styled.img`
 
 export const ButtonList = styled.div`
   width: 100%;
-  height:100%;
-  display:flex;
-  align-items:flex-end;
-  justify-content:center;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 20px;
 `;
 
 export const LogOut = styled.button`
   color: #b2b2b2;
-  background-color:white;
+  background-color: white;
   border: 1px solid #b2b2b2;
-  border-radius: 8px;
-  width: 85px;
-  height: 33px;
+  border-radius: 10px;
+  width: 87px;
+  height: 35px;
   cursor: pointer;
+  margin-right: 4px;
+  transition: all 0.2s linear;
+
+  &:hover {
+    transform: scale(1.03);
+  }
 `;
 
 export const ProfileOption = styled.button`
-  color:white;
-  background-color:#ffb800;
-  width: 85px;
-  height: 33px;
-  border-radius: 8px;
-  border:0;
+  color: white;
+  background-color: #ffb800;
+  width: 87px;
+  height: 35px;
+  border-radius: 10px;
+  border: 0;
   cursor: pointer;
-`
+  margin-left: 4px;
+
+  transition: all 0.2s linear;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+`;

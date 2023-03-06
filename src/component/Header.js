@@ -1,53 +1,25 @@
-import * as S from "../Mypage/style";
-import "../Mypage/index.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass, faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-import { css } from "@emotion/react";
-/** @jsxImportSource @emotion/react */
+import * as S from "../pages/Mypage/style";
+import "../pages/Mypage/index.css";
 
-const Header = ({ h1, h2, h3, h4, h5 }) => {
+
+
+
+const Header = ({ menu }) => {
   return (
     <>
       <S.Header>
         <S.HeaderList>
           <S.LogoImg src="https://media.discordapp.net/attachments/956190154454876183/1080807476515045376/image.png" />
           <S.MenuList>
-            <span
-              css={css`
-                color: ${h1 ?? "black"};
-              `}
-            >
-              홈
-            </span>
-            <span
-              css={css`
-                color: ${h2 ?? "black"};
-              `}
-            >
-              마이페이지
-            </span>
-            <span
-              css={css`
-                color: ${h3 ?? "black"};
-              `}
-            >
-              글쓰기
-            </span>
-            <span
-              css={css`
-                color: ${h4 ?? "black"};
-              `}
-            >
-              공지
-            </span>
-            <span
-              css={css`
-                color: ${h5 ?? "black"};
-              `}
-            >
-              전체보기
-            </span>
+            <S.HeaderItem color={menu === "home" ? "#ffb800" : "black"}>홈</S.HeaderItem>
+            <S.HeaderItem color={menu === "myPage" ? "#ffb800" : "black"}>마이페이지</S.HeaderItem>
+            <S.HeaderItem color={menu === "write" ? "#ffb800" : "black"}>글쓰기</S.HeaderItem>
+            <S.HeaderItem color={menu === "notice" ? "#ffb800" : "black"}>공지</S.HeaderItem>
+            <S.HeaderItem color={menu === "viewAll" ? "#ffb800" : "black"}>전체보기</S.HeaderItem>
           </S.MenuList>
           <S.SideBar>
             <FontAwesomeIcon
