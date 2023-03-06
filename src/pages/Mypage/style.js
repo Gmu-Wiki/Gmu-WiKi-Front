@@ -2,8 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HeaderItem = styled.span`
-   color: ${(props) => props.color}; 
- 
+  color: ${(props) => props.color};
 `;
 
 export const Header = styled.div`
@@ -35,14 +34,12 @@ export const MenuList = styled.div`
     margin: 0 20px 0 20px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      transition: all 0.1s linear;
+    transition: all 0.1s linear;
 
-      &:hover{
-        transform: scale(1.05);
-      }
+    &:hover {
+      transform: scale(1.05);
+    }
   }
-
-
 `;
 
 export const SideBar = styled.div`
@@ -119,15 +116,6 @@ export const UserList = styled.div`
   }
 `;
 
-export const ArticlesList = styled.div`
-  width: 44%;
-  height: auto;
-
-  background-color: white;
-  border-radius: 13px;
-  margin-top: 65px;
-`;
-
 export const UserImg = styled.img`
   width: 6rem;
   height: 6rem;
@@ -175,4 +163,76 @@ export const ProfileOption = styled.button`
   &:hover {
     transform: scale(1.03);
   }
+`;
+
+export const ArticlesList = styled.div`
+  width: 44%;
+  height: auto;
+
+  background-color: white;
+  border-radius: 13px;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+
+  .setting {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+  }
+
+  .writeFont {
+    width: 80%;
+    height: 50%;
+    margin-top: 30px;
+    border-bottom: 0.5px solid #b2b2b2;
+    display: flex;
+
+    .writtenWriting {
+      font-weight: 600;
+    }
+  }
+
+  .settingWriting {
+    width: 80%;
+    height: 100%;
+    display:flex;
+    justify-content: flex-start;
+    border-bottom: 0.5px solid #b2b2b2;
+    align-items:center;
+  
+  }
+`;
+
+export const writeList = styled.div`
+  
+  width: 100%;
+  height:60%;
+  display: flex;
+  justify-content: center;
+
+  .imgSetting{
+    display:flex;
+    align-items:center;
+  }
+  
+  
+`;
+
+export const writeImg = styled.img`
+  width: 130px;
+  height: 130px;
+  border-radius: 8px;
+`;
+
+export const writingContent = styled.div`
+  height:70%;
+
+
+  span{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+  }
+
 `;
