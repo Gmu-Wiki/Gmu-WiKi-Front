@@ -198,41 +198,80 @@ export const ArticlesList = styled.div`
     width: 80%;
     height: 100%;
     display:flex;
-    justify-content: flex-start;
-    border-bottom: 0.5px solid #b2b2b2;
     align-items:center;
-  
+    border-bottom: 0.5px solid #b2b2b2;
+   
+  }
+  .settingWritingConent{
+    display:flex;
+    height: 20vh;
+    align-items:center;
+
   }
 `;
 
 export const writeList = styled.div`
-  
   width: 100%;
-  height:60%;
+  height: 60%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-  .imgSetting{
-    display:flex;
-    align-items:center;
+  .imgSetting {
+    display: flex;
+    align-items: center;
   }
-  
-  
 `;
 
 export const writeImg = styled.img`
-  width: 130px;
-  height: 130px;
+  width: 15vh;
+  height: 15vh;
   border-radius: 8px;
 `;
 
 export const writingContent = styled.div`
-  height:70%;
+  height: 60%;
+ margin-bottom: 20px;
+  width: 26vw;
+  margin-left:20px;
 
 
-  span{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  span {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 500;
   }
 
+  .content{
+    font-size: 12px;
+    color: #A1A1A1;
+    font-weight: 500;
+  }
+
+  .DateRecommend{
+    height: 80%;
+ 
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+  
+  }
+
+  .date{
+    color: #A1A1A1;
+    font-size:11px;
+    
+  }
+
+  .counter{
+    font-size: 14.5px;
+    font-weight: 400;
+    color: #A1A1A1;
+    position:relative;
+    bottom: 1px;
+  }
+
+  .heart{
+    margin-right:3px;
+  }
 `;
