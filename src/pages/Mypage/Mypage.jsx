@@ -8,24 +8,23 @@ import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 import { render } from "@testing-library/react";
 
 function MyPage() {
-  const [Like, setLike] = useState(false); 
+  const [Like, setLike] = useState(false);
   const [cnt, setCnt] = useState(0);
 
   const handleLike = () => {
-
-    if(Like === true){
+    if (Like === true) {
       setLike(false);
-      setCnt(prev => prev - 1);
-    }else{
+      setCnt((prev) => prev - 1);
+    } else {
       setLike(true);
-      setCnt(prev => prev + 1);
+      setCnt((prev) => prev + 1);
     }
-  }
+  };
 
   return (
     <>
       <Header menu="myPage" />
-        <S.ContentCenter>
+      <S.ContentCenter>
         <div className="UserContent">
           <S.UserList>
             <div className="UserImg">
@@ -62,7 +61,19 @@ function MyPage() {
                   <div className="DateRecommend">
                     <span className="date">1시간 전</span>
                     <div>
-                      {Like === true ? <HeartFilled className="heart" onClick={handleLike} style={{ color: 'red', fontSize: '15px'}}/> :  <HeartOutlined className="heart" style={{color: "#a1a1a1"}}onClick={handleLike}/>}
+                      {Like === true ? (
+                        <HeartFilled
+                          className="heart"
+                          onClick={handleLike}
+                          style={{ color: "red", fontSize: "15px" }}
+                        />
+                      ) : (
+                        <HeartOutlined
+                          className="heart"
+                          style={{ color: "#a1a1a1" }}
+                          onClick={handleLike}
+                        />
+                      )}
                       <span className="counter">{cnt}</span>
                     </div>
                   </div>
@@ -83,7 +94,19 @@ function MyPage() {
                   <div className="DateRecommend">
                     <span className="date">1시간 전</span>
                     <div>
-                      {Like === true ? <HeartFilled className="heart" onClick={handleLike} style={{ color: 'red', fontSize: '15px'}}/> :  <HeartOutlined className="heart" style={{color: "#a1a1a1"}}onClick={handleLike}/>}
+                      {Like === true ? (
+                        <HeartFilled
+                          className="heart"
+                          onClick={handleLike}
+                          style={{ color: "red", fontSize: "15px" }}
+                        />
+                      ) : (
+                        <HeartOutlined
+                          className="heart"
+                          style={{ color: "#a1a1a1" }}
+                          onClick={handleLike}
+                        />
+                      )}
                       <span className="counter">{cnt}</span>
                     </div>
                   </div>
@@ -104,7 +127,19 @@ function MyPage() {
                   <div className="DateRecommend">
                     <span className="date">1시간 전</span>
                     <div>
-                      {Like === true ? <HeartFilled className="heart" onClick={handleLike} style={{ color: 'red', fontSize: '15px'}}/> :  <HeartOutlined className="heart" style={{color: "#a1a1a1"}}onClick={handleLike}/>}
+                      {Like === true ? (
+                        <HeartFilled
+                          className="heart"
+                          onClick={handleLike}
+                          style={{ color: "red", fontSize: "15px" }}
+                        />
+                      ) : (
+                        <HeartOutlined
+                          className="heart"
+                          style={{ color: "#a1a1a1" }}
+                          onClick={handleLike}
+                        />
+                      )}
                       <span className="counter">{cnt}</span>
                     </div>
                   </div>

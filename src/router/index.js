@@ -8,12 +8,12 @@ function RouterApp() {
       <Routes>
         {/* <Route path="/emailAuthentication" element={<EmailAuthentication />}/>
             <Route path="/certificationNumber" element={<CertificationNumber />}/>
-            <Route path="/joinPage" element={<JoinPage/>}/>
-            <Route path="/loginPage" element={<LoginPage />}/>
+            <Route path="/join" element={<JoinPage/>}/>
+            <Route path="/login" element={<LoginPage />}/>
             <Route path="/findPasswordPage" element={<FindPasswordPage/>}/> */}
-             {/* <Route path="/writePage" element={<WritePage />}/>
-             <Route path="/homePage" element={<HomePage />}/>
-             <Route path="/noticePage" element={<NoticePage/>}/>
+             {/* <Route path="/write" element={<WritePage />}/>
+             <Route path="/home" element={<HomePage />}/>
+             <Route path="/notice" element={<NoticePage/>}/>
              <Route path="/viewAll" element={<ViewAll />}/> */ }
             <Route path="/myPage" element={<MyPage />}/>
             
