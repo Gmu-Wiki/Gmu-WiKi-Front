@@ -199,7 +199,7 @@ export const ArticlesList = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
-    border-bottom: 0.5px solid #b2b2b2;
+    border-bottom: 0.5px solid #ececec;
   }
   .settingWritingConent {
     display: flex;
