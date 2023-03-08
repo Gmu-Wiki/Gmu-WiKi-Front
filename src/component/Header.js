@@ -20,10 +20,6 @@ const Header = ({ menu }) => {
             <S.HeaderItem color={menu === "write" ? "#ffb800" : "black"}>글쓰기</S.HeaderItem>
             <S.HeaderItem color={menu === "notice" ? "#ffb800" : "black"}>공지</S.HeaderItem>
             <S.HeaderItem color={menu === "viewAll" ? "#ffb800" : "black"}>전체보기</S.HeaderItem>
-<<<<<<< HEAD
-      
-=======
->>>>>>> 2bf258540b9bc0145b840db44b26219c812f8aaf
           </S.MenuList>
           <S.SideBar>
             <FontAwesomeIcon
