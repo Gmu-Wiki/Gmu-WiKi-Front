@@ -1,7 +1,10 @@
-import Router from "./router";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import RouterApp from "./router/index";
+
+
 
 function App() {
-  return <Router />;
+  return <RouterApp />;
 }
 
 export default App;
