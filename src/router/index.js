@@ -17,9 +17,7 @@ function RouterApp() {
              <Route path="/home" element={<HomePage />}/>
              <Route path="/notice" element={<NoticePage/>}/>
              <Route path="/viewAll" element={<ViewAll />}/> */}
-
         <Route path="/*" element={<ErrorPage />} />
-
         <Route path="/myPage" element={<MyPage />} />
       </Routes>
     </Router>
