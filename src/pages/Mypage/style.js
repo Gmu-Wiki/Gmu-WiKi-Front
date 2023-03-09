@@ -197,16 +197,14 @@ export const ArticlesList = styled.div`
   .settingWriting {
     width: 80%;
     height: 100%;
-    display:flex;
-    align-items:center;
-    border-bottom: 0.5px solid #b2b2b2;
-   
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #ececec;
   }
-  .settingWritingConent{
-    display:flex;
+  .settingWritingConent {
+    display: flex;
     height: 20vh;
-    align-items:center;
-
+    align-items: center;
   }
 `;
 
@@ -231,10 +229,9 @@ export const writeImg = styled.img`
 
 export const writingContent = styled.div`
   height: 60%;
- margin-bottom: 20px;
+  margin-bottom: 20px;
   width: 26vw;
-  margin-left:20px;
-
+  margin-left: 20px;
 
   span {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -242,36 +239,34 @@ export const writingContent = styled.div`
     font-weight: 500;
   }
 
-  .content{
+  .content {
     font-size: 12px;
-    color: #A1A1A1;
+    color: #a1a1a1;
     font-weight: 500;
   }
 
-  .DateRecommend{
+  .DateRecommend {
     height: 80%;
- 
-    display:flex;
-    align-items:flex-end;
-    justify-content:space-between;
-  
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
   }
 
-  .date{
-    color: #A1A1A1;
-    font-size:11px;
-    
+  .date {
+    color: #a1a1a1;
+    font-size: 11px;
   }
 
-  .counter{
+  .counter {
     font-size: 14.5px;
     font-weight: 400;
-    color: #A1A1A1;
-    position:relative;
+    color: #a1a1a1;
+    position: relative;
     bottom: 1px;
   }
 
-  .heart{
-    margin-right:3px;
+  .heart {
+    margin-right: 3px;
   }
 `;
