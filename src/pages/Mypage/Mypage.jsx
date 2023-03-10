@@ -43,7 +43,7 @@ function MyPage() {
           </S.writeList>
         </S.ArticlesList>
       </S.ContentCenter>
-      ㅈ
+      
     </>
   );
 }
