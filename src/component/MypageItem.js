@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import * as S from "../pages/Mypage/style";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 import { render } from "@testing-library/react";
