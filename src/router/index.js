@@ -1,8 +1,9 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import React from "react"; //테스트
-import MyPage from "../pages/Mypage/Mypage";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from 'react'; //테스트
+import MyPage from '../pages/Mypage/Mypage';
+import NoticePage from '../pages/Notice/NoticePage';
 
-import ErrorPage from "../pages/404ErrorPage/ErrorPage.jsx";
+import ErrorPage from '../pages/404ErrorPage/ErrorPage.jsx';
 
 function RouterApp() {
   return (
@@ -18,6 +19,9 @@ function RouterApp() {
              <Route path="/notice" element={<NoticePage/>}/>
              <Route path="/viewAll" element={<ViewAll />}/> */}
         <Route path="/*" element={<ErrorPage />} />
+        {/* <Route path="/home" element={<HomePage />}/> */}
+        <Route path="/notice" element={<NoticePage />} />
+        {/* <Route path="/viewAll" element={<ViewAll />}/>  */}
         <Route path="/myPage" element={<MyPage />} />
       </Routes>
     </Router>
