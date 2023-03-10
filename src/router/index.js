@@ -17,10 +17,9 @@ function RouterApp() {
              <Route path="/home" element={<HomePage />}/>
              <Route path="/notice" element={<NoticePage/>}/>
              <Route path="/viewAll" element={<ViewAll />}/> */}
-<<<<<<< HEAD
-=======
+
         <Route path="/*" element={<ErrorPage />} />
->>>>>>> 15f52f2ee5cd36f02587d9a85bf5001df6375faf
+
         <Route path="/myPage" element={<MyPage />} />
       </Routes>
     </Router>
