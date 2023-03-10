@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import * as S from "../pages/MyPage/style";
+=======
+import React, { useEffect, useState } from "react";
+import * as S from "../pages/Mypage/style";
+>>>>>>> 15f52f2ee5cd36f02587d9a85bf5001df6375faf
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 import { render } from "@testing-library/react";
 
