@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react"; //테스트
-import MyPage from "../pages/Mypage/Mypage";
+import MyPage from "../pages/MyPage/Mypage";
 
 function RouterApp() {
   return (
@@ -11,12 +11,11 @@ function RouterApp() {
             <Route path="/join" element={<JoinPage/>}/>
             <Route path="/login" element={<LoginPage />}/>
             <Route path="/findPasswordPage" element={<FindPasswordPage/>}/> */}
-             {/* <Route path="/write" element={<WritePage />}/>
+        {/* <Route path="/write" element={<WritePage />}/>
              <Route path="/home" element={<HomePage />}/>
              <Route path="/notice" element={<NoticePage/>}/>
-             <Route path="/viewAll" element={<ViewAll />}/> */ }
-            <Route path="/myPage" element={<MyPage />}/>
-            
+             <Route path="/viewAll" element={<ViewAll />}/> */}
+        <Route path="/myPage" element={<MyPage />} />
       </Routes>
     </Router>
   );

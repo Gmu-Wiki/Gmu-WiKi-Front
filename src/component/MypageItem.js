@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import * as S from "../pages/Mypage/style";
+import * as S from "../pages/MyPage/style";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 import { render } from "@testing-library/react";
 
