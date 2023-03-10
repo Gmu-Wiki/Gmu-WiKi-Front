@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react"; //테스트
-import MyPage from "../pages/Mypage/Mypage";
+import MyPage from "../pages/MyPage/Mypage";
 
 import ErrorPage from "../pages/404ErrorPage/ErrorPage.jsx";
 
@@ -17,7 +17,10 @@ function RouterApp() {
              <Route path="/home" element={<HomePage />}/>
              <Route path="/notice" element={<NoticePage/>}/>
              <Route path="/viewAll" element={<ViewAll />}/> */}
+<<<<<<< HEAD
+=======
         <Route path="/*" element={<ErrorPage />} />
+>>>>>>> 15f52f2ee5cd36f02587d9a85bf5001df6375faf
         <Route path="/myPage" element={<MyPage />} />
       </Routes>
     </Router>
