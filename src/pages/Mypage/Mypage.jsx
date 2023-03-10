@@ -1,12 +1,12 @@
-import * as S from "./style";
+import * as S from "../../component/Header/style";
 import React, { Component, useState } from "react";
 import "./index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass, faBars } from "@fortawesome/free-solid-svg-icons";
-import Header from "../../component/Header";
+import Header from "../../component/Header/Header";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 import { render } from "@testing-library/react";
-import MypageItem from "../../component/MypageItem";
+import MypageItem from "../../component/Header/MypageItem";
 
 function MyPage() {
   return (
@@ -40,10 +40,10 @@ function MyPage() {
             <MypageItem />
             <MypageItem />
             <MypageItem />
-            
           </S.writeList>
         </S.ArticlesList>
-      </S.ContentCenter>ㅈ
+      </S.ContentCenter>
+      ㅈ
     </>
   );
 }
