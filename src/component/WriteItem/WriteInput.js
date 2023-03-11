@@ -3,10 +3,10 @@ import * as S from "./style";
 import { useNavigate } from "react-router";
 
 
-function WrtieItem(){
+function WriteItem(){
     return(
         <div></div>
     );
 }
 
-export default WrtieItem;
+export default WriteItem;
