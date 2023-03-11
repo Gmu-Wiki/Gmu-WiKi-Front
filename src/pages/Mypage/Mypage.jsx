@@ -1,6 +1,6 @@
 import * as S from "../../component/Header/style";
 import React, { Component, useState } from "react";
-import "./index.css";
+import "../../component/index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass, faBars } from "@fortawesome/free-solid-svg-icons";
 import Header from "../../component/Header/Header";
