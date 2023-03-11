@@ -1,12 +1,9 @@
-// import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
-// import RouterApp from "./router/index";
-import LoginPage from './pages/LoginPage/LoginPage'
-
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import RouterApp from "./router/index";
 
 
 function App() {
-  // return <RouterApp />;
-  return <LoginPage />;
+  return <RouterApp />;
 }
 
 export default App;
