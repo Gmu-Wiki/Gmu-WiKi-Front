@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass, faBars } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router";
 import * as S from "./style";
-import "../../pages/MyPage/index.css";
+import "../index.css";
 
 
 const Header = ({ menu }) => {
