@@ -27,7 +27,7 @@ export const NoticeTitleLine = styled.div`
 export const IconWrap = styled.div`
   position: absolute;
   right: 30px;
-  top: 85px;
+  top: 35px;
   svg {
     font-size: 25px;
   }
