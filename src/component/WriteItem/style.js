@@ -51,7 +51,7 @@ export const TitleInput = styled.input`
   font-size: 20px;
   font-weight: 500;
 
-  ::placeholder{
+  ::placeholder {
     font-size: 14px;
   }
 `;
@@ -75,26 +75,23 @@ export const WriteContent = styled.div`
     background-color: #f1f1f5;
     border-radius: 8px;
     display: flex;
-   justify-content:center;
+    justify-content: center;
     margin-left: 25px;
-
   }
 `;
 
 export const WriteInput = styled.textarea`
-    background-color: #f1f1f5;
-    border: none;
-    outline:none;
-    width: 90%;
+  background-color: #f1f1f5;
+  border: none;
+  outline: none;
+  width: 90%;
+  font-size: 14px;
+  margin: 20px 45px 0 0;
+  resize: none; //왼쪽 아래 3줄 없애는 기능
+
+  ::placeholder {
     font-size: 14px;
-    margin: 20px 45px 0 0;
-    resize:none; //왼쪽 아래 3줄 없애는 기능
-
-   ::placeholder{
-    font-size: 14px;
-   }
+  }
+`;
 
 
-  
-  
-`
