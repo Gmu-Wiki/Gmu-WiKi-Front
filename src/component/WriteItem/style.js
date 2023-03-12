@@ -101,6 +101,7 @@ export const WriteInput = styled.textarea`
   }
 `;
 
+
 export const WriteOption = () => {
   return (
     <select className="SelectOption">
@@ -111,3 +112,7 @@ export const WriteOption = () => {
     </select>
   );
 };
+
+
+
+
