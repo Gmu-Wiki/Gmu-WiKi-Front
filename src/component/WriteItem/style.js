@@ -108,7 +108,8 @@ export const WriteOption = () => {
       <option value="introduction">인물 소개</option>
       <option value="schoolIntroduction">학교 시설</option>
       <option value="clubIntroduction">동아리 소개</option>
-      <option value="MajorIntroduction">전공 소개</option>
+      <option value="majorIntroduction">전공 소개</option>
+      <option value="notice">공지</option>
     </select>
   );
 };
