@@ -1,6 +1,7 @@
 import React from 'react';
 import * as S from './style';
-import Header from '../../component/Header';
+import Header from '../../component/Header/Header';
+import NoticeItem from '../../component/NoticeItem';
 import { AiOutlinePlus } from 'react-icons/ai';
 
 function Notice() {
@@ -13,6 +14,12 @@ function Notice() {
           <AiOutlinePlus />
         </S.IconWrap>
         <S.NoticeTitleLine />
+        <NoticeItem />
+        <NoticeItem />
+        <NoticeItem />
+        <NoticeItem />
+        <NoticeItem />
+        <NoticeItem />
       </S.NoticeContainer>
     </>
   );
