@@ -94,7 +94,7 @@ export const WriteInput = styled.textarea`
   width: 90%;
   font-size: 14px;
   margin: 20px 45px 0 0;
-  resize: none; //왼쪽 아래 3줄 없애는 기능
+  resize: none; //왼쪽 아래 3줄 삭제
 
   ::placeholder {
     font-size: 14px;
