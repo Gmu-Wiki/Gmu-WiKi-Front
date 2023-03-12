@@ -10,6 +10,7 @@ function WriteItem() {
           <span>제목</span>
           <div className="TitleCenter">
             <S.TitleInput placeholder="제목을 입력해주세요"></S.TitleInput>
+            <S.WriteOption/>
           </div>
         </S.WriteTitle>
         <S.WriteContent>
