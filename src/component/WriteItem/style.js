@@ -39,6 +39,13 @@ export const WriteTitle = styled.div`
     font-size: 20px;
     width: 50px;
   }
+
+  .SelectOption{
+    margin-left: 40px;
+    background-color:#f1f1f5;
+    border:none;
+    outline:none;
+  }
 `;
 
 export const TitleInput = styled.input`
@@ -51,7 +58,7 @@ export const TitleInput = styled.input`
   font-size: 20px;
   font-weight: 500;
 
-  ::placeholder{
+  ::placeholder {
     font-size: 14px;
   }
 `;
@@ -75,26 +82,32 @@ export const WriteContent = styled.div`
     background-color: #f1f1f5;
     border-radius: 8px;
     display: flex;
-   justify-content:center;
+    justify-content: center;
     margin-left: 25px;
-
   }
 `;
 
 export const WriteInput = styled.textarea`
-    background-color: #f1f1f5;
-    border: none;
-    outline:none;
-    width: 90%;
+  background-color: #f1f1f5;
+  border: none;
+  outline: none;
+  width: 90%;
+  font-size: 14px;
+  margin: 20px 45px 0 0;
+  resize: none; //왼쪽 아래 3줄 없애는 기능
+
+  ::placeholder {
     font-size: 14px;
-    margin: 20px 45px 0 0;
-    resize:none; //왼쪽 아래 3줄 없애는 기능
+  }
+`;
 
-   ::placeholder{
-    font-size: 14px;
-   }
-
-
-  
-  
-`
+export const WriteOption = () => {
+  return (
+    <select className="SelectOption">
+      <option value="introduction">인물 소개</option>
+      <option value="schoolIntroduction">학교 시설</option>
+      <option value="clubIntroduction">동아리 소개</option>
+      <option value="MajorIntroduction">전공 소개</option>
+    </select>
+  );
+};
