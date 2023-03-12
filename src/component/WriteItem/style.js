@@ -41,7 +41,7 @@ export const WriteTitle = styled.div`
   }
 
   .SelectOption{
-    margin-left: 40px;
+    margin-left: 35px;
     background-color:#f1f1f5;
     border:none;
     outline:none;
