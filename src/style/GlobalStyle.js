@@ -1,10 +1,16 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
- * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @font-face {
+    font-family: 'NotoSansKR';
+    src: url('../assets/font/NotoSansKR-Regular.otf');  
+  }
+
+  * {
+    font-family: 'NotoSansKR';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
   body {
