@@ -1,6 +1,7 @@
 import React from "react";
 import * as S from "./style";
 import { useNavigate } from "react-router";
+import FontConverter from "../FontConverter";
 
 
 function WriteItem() {
@@ -8,13 +9,13 @@ function WriteItem() {
     <S.WriteCenter>
       <S.WriteAll>
         <S.WriteTitle>
-          <span>제목</span>
+          <FontConverter>제목</FontConverter>
           <div className="TitleCenter">
             <S.TitleInput placeholder="제목을 입력해주세요"></S.TitleInput>
           </div>
         </S.WriteTitle>
         <S.WriteContent>
-          <span>글 작성</span>
+          <FontConverter>글 작성</FontConverter>
           <div className="InputCenter">
             <S.WriteInput placeholder="내용을 입력해주세요"></S.WriteInput>
           </div>

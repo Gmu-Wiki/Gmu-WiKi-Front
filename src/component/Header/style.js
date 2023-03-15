@@ -96,11 +96,7 @@ export const UserList = styled.div`
     align-items: center;
     margin-top: 25px;
 
-    span {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      position: relative;
-    }
+ 
 
     .email {
       color: #b2b2b2;
@@ -232,11 +228,6 @@ export const writingContent = styled.div`
   width: 26vw;
   margin-left: 20px;
 
-  span {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 500;
-  }
 
   .content {
     font-size: 12px;
@@ -246,7 +237,7 @@ export const writingContent = styled.div`
 
   .DateRecommend {
     height: 80%;
-
+    
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -258,7 +249,7 @@ export const writingContent = styled.div`
   }
 
   .counter {
-    font-size: 14.5px;
+    font-size: 14px;
     font-weight: 400;
     color: #a1a1a1;
     position: relative;
