@@ -32,8 +32,7 @@ export const MenuList = styled.div`
     font-size: 16px;
     cursor: pointer;
     margin: 0 20px 0 20px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    
     transition: all 0.1s linear;
 
     &:hover {
