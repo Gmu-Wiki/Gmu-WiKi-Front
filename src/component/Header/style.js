@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import FontConverter from "../FontConverter";
 
 export const HeaderItem = styled.span`
   color: ${(props) => props.color};
@@ -32,8 +33,7 @@ export const MenuList = styled.div`
     font-size: 16px;
     cursor: pointer;
     margin: 0 20px 0 20px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    
     transition: all 0.1s linear;
 
     &:hover {
@@ -97,11 +97,7 @@ export const UserList = styled.div`
     align-items: center;
     margin-top: 25px;
 
-    span {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      position: relative;
-    }
+ 
 
     .email {
       color: #b2b2b2;
@@ -233,21 +229,16 @@ export const writingContent = styled.div`
   width: 26vw;
   margin-left: 20px;
 
-  span {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 500;
-  }
 
   .content {
-    font-size: 12px;
+    font-size: 10px;
     color: #a1a1a1;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .DateRecommend {
     height: 80%;
-
+    
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -259,7 +250,7 @@ export const writingContent = styled.div`
   }
 
   .counter {
-    font-size: 14.5px;
+    font-size: 14px;
     font-weight: 400;
     color: #a1a1a1;
     position: relative;

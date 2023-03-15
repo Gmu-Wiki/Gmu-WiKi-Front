@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import * as S from "./style";
 import { HeartOutlined, HeartFilled } from "@ant-design/icons";
 import { render } from "@testing-library/react";
+import FontConverter from "../FontConverter";
 
 function MypageItem() {
   const [Like, setLike] = useState(false);
@@ -41,11 +42,11 @@ function MypageItem() {
           <S.writeImg src="https://t1.daumcdn.net/cfile/tistory/186E94454F7E700720" />
         </div>
         <S.writingContent>
-          <span>김새미 인성관련 이슈</span>
+          <FontConverter className="content">김새미 인성</FontConverter>
           <br />
-          <span className="content">마라탕집에서 꿔바로우 훔쳐 도망.</span>
+          <FontConverter className="content">마라탕집에서 꿔바로우 훔쳐 도망.</FontConverter >
           <div className="DateRecommend">
-            <span className="date detail_time">1시간 전</span>
+            <FontConverter className="date detail_time">1시간 전</FontConverter>
             <div>
               {Like === true ? (
                 <HeartFilled
@@ -60,7 +61,7 @@ function MypageItem() {
                   onClick={handleLike}
                 />
               )}
-              <span className="counter">{cnt}</span>
+              <FontConverter className="counter">{cnt}</FontConverter>
             </div>
           </div>
         </S.writingContent>

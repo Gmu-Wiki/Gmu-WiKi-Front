@@ -1,8 +1,8 @@
-import React from 'react';
-import * as S from './style';
-import Header from '../../component/Header/Header';
-import NoticeItem from '../../component/NoticeItem';
-import { AiOutlinePlus } from 'react-icons/ai';
+import React from "react";
+import * as S from "./style";
+import Header from "../../component/Header/Header";
+import NoticeItem from "../../component/NoticeItem";
+import { AiOutlinePlus } from "react-icons/ai";
 
 function Notice() {
   return (
@@ -20,6 +20,7 @@ function Notice() {
         <NoticeItem />
         <NoticeItem />
         <NoticeItem />
+        
       </S.NoticeContainer>
     </>
   );
