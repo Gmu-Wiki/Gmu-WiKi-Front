@@ -6,4 +6,5 @@ export const ConvertFont = styled.span`
     src: url('../assets/font/Roboto-Regular.ttf');
   }
   font-family: 'Roboto-Regular';
+  font-size: ${(props) => props.fontSize};
 `;
