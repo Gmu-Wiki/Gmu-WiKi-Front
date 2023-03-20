@@ -42,7 +42,7 @@ function MypageItem() {
           <S.writeImg src="https://t1.daumcdn.net/cfile/tistory/186E94454F7E700720" />
         </div>
         <S.writingContent>
-          <FontConverter>김새미 인성 ㅋ</FontConverter>
+          <FontConverter className="content">김새미 인성</FontConverter>
           <br />
           <FontConverter className="content">마라탕집에서 꿔바로우 훔쳐 도망.</FontConverter >
           <div className="DateRecommend">

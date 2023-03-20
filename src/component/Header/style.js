@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import FontConverter from "../FontConverter";
 
 export const HeaderItem = styled.span`
   color: ${(props) => props.color};
@@ -230,9 +231,9 @@ export const writingContent = styled.div`
 
 
   .content {
-    font-size: 12px;
+    font-size: 10px;
     color: #a1a1a1;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .DateRecommend {

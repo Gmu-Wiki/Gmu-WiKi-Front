@@ -39,6 +39,13 @@ export const WriteTitle = styled.div`
     font-size: 20px;
     width: 50px;
   }
+
+  .SelectOption{
+    margin-left: 35px;
+    background-color:#f1f1f5;
+    border:none;
+    outline:none;
+  }
 `;
 
 export const TitleInput = styled.input`
@@ -87,11 +94,26 @@ export const WriteInput = styled.textarea`
   width: 90%;
   font-size: 14px;
   margin: 20px 45px 0 0;
-  resize: none; //왼쪽 아래 3줄 없애는 기능
+  resize: none; //왼쪽 아래 3줄 삭제
 
   ::placeholder {
     font-size: 14px;
   }
 `;
+
+
+export const WriteOption = () => {
+  return (
+    <select className="SelectOption">
+      <option value="introduction">인물 소개</option>
+      <option value="schoolIntroduction">학교 시설</option>
+      <option value="clubIntroduction">동아리 소개</option>
+      <option value="majorIntroduction">전공 소개</option>
+      <option value="notice">공지</option>
+    </select>
+  );
+};
+
+
 
 

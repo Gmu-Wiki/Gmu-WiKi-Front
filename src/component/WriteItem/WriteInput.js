@@ -12,6 +12,7 @@ function WriteItem() {
           <FontConverter>제목</FontConverter>
           <div className="TitleCenter">
             <S.TitleInput placeholder="제목을 입력해주세요"></S.TitleInput>
+            <S.WriteOption/>
           </div>
         </S.WriteTitle>
         <S.WriteContent>
